@@ -8,7 +8,7 @@
 <br />
 
   <img src="https://img.shields.io/badge/Javascript-yellow" />
-  <img src="https://img.shields.io/badge/jQuery-Express"  />
+  <img src="https://img.shields.io/badge/jQuery-Sequelize"  />
   <img src="https://img.shields.io/badge/-node.js-green" />
   <img src="https://img.shields.io/badge/-inquirer-red" >
   <img src="https://img.shields.io/badge/-dotenv-lightgrey" />
@@ -55,17 +55,28 @@ GIVEN a functional Express.js API:
 
 Once you have cloned the repository to your local machine and created your own repository on git hub, you can push it to your own github repository using `git remote set-url origin <REPO LINK>`
 
+Run `npm install`. This will install the dependencies required for this project. 
+
+Dependancies:
+
+- dotenv": "^8.2.0",
+- "express": "^4.17.1",
+- "mysql2": "^2.1.0",
+- "sequelize": "^5.21.7"
+
 ## Usage 🏁
 
-The usage of this assignment is through insomnia. Run `npm install`, `node seeds/index.js` and `npm start` and the console log will say 'Now Listening'. Then you can test the GET POST and DELETE routes in insomia using localhost:3001.
+Run `mysql -u root -p` then put in your password and run the schema.sql. Then `npm run seed` and `npm run start` and the console log will say 'Now Listening'. Then you can test the GET POST UPDATEvand DELETE Product, Category and Tag routes in insomia using localhost:3001.
 
 ## Demonstration
-
+**I HAVE A BUG IN MY POST ROUTE.. I will resubmit the assignment with the youtube video once I have ficured that out.. Hopefully before the grading happens! 
 LINK SYNTAX
 [here]()
 
-IMAGE SYNTAX
-<img src="" alt="description" width="300" height="auto">
+Git Hub Repo Link
+
+[https://github.com/schneidsmc/ORMchallenge11.git](https://github.com/schneidsmc/ORMchallenge11.git)
+
 
 ## Author 👋🏽
 
