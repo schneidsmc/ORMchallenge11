@@ -69,9 +69,8 @@ Dependancies:
 Run `mysql -u root -p` then put in your password and run the schema.sql. Then `npm run seed` and `npm run start` and the console log will say 'Now Listening'. Then you can test the GET POST UPDATEvand DELETE Product, Category and Tag routes in insomia using localhost:3001.
 
 ## Demonstration
-**I HAVE A BUG IN MY POST ROUTE.. I will resubmit the assignment with the youtube video once I have ficured that out.. Hopefully before the grading happens! 
-LINK SYNTAX
-[here]()
+
+[Youtube Demonstration](https://youtu.be/OTmDm7vumJ4)
 
 Git Hub Repo Link
 
